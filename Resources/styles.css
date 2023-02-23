@@ -1,0 +1,101 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  }
+
+header {
+  background-color: black;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+  }
+
+#headertext p {
+  padding: 10px;
+  font-size: 25px;
+}
+
+header img {
+    display: block;
+    width: 70px;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+header h1 {
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.breadcrums li {
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link, 
+a:visited { 
+  text-decoration: none;
+  color: gray; 
+}
+
+
+a:hover,
+a:active { 
+  text-decoration: none;
+  color: black; 
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container p {
+  margin: 2px;
+}
+
+.container h1 {
+  position: relative;
+  margin-bottom: 5px;
+
+}
+
+.container .tabledescriptions {
+  background-color: black;
+}
+
+.tabledescriptions h2 {
+  font-size: 18px;
+  Margin: 5px auto;
+  padding: 5px;
+  text-transform: uppercase;
+  color: white;  
+}
+   
+table {
+  margin: auto;
+}
+  
+td {
+  border: 1px solid black;
+  width: 300px;
+}
+
+.left {
+  width: 100px;
+  padding: 10px;
+  margin: 10px 10px;
+
+}
